@@ -1,4 +1,4 @@
-# My-Favorite-Vim-Commands
+# My Favorite Vim Commands
 
 ## .vimrc
 
