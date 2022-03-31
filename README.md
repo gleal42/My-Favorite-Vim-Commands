@@ -34,7 +34,7 @@
 - ctrl-w + -> Resize window bigger
 - ctrl-w - -> Resize windows smaller
 
-:bufdo do something in all buffers
+- :bufdo do something in all buffers
 
 
 
@@ -111,6 +111,10 @@
 - y copy
 - p paste
 - dd delete line and copy
+- ctrl d shift left writing mode
+- ctrl t shift right writing mode
+- shift >> shift right select mode
+- shift << shift left select mode
 
 ## Other interesting
 
