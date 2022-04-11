@@ -130,7 +130,11 @@
 - 4 j -> go down 4 lines
 - ctrl o and ctrl i to go to previous locations and more recent
 - crtl r 0 insert mode is same as p in visual
-- ctrl w delete word ctrl u delete line
+
+- ctrl w delete char (Imode)
+- ctrl w delete word (Imode)
+- ctrl u delete line (Imode)
+- 
 - ctrl v select numbers in line g ctrl a puts numbers in order
 
 ## Enter edit file under cursor
