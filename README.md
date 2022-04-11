@@ -14,6 +14,7 @@
 - b fi[tab]
 - wa save all buffers
 - waq save all buffers and exit
+- ls to see list of all buffers
 
 ## Search for words
 
@@ -30,13 +31,15 @@
 - ctrl-w h -> Go to left window
 - ctrl-w r -> Rotate windows
 - ctrl-w R -> Rotate opposite way
+
+- ctrl-w shift L -> Send curr window to right
+- ctrl-w shift H -> Send curr window to left
+
 - ctrl-w = -> Resize windows same size
 - ctrl-w + -> Resize window bigger
 - ctrl-w - -> Resize windows smaller
 
 - :bufdo do something in all buffers
-
-
 
 ## Selection
 
@@ -72,6 +75,7 @@
 
 - ctrl i -> go to previous location
 - ctrl o -> go to next location
+- \[ and { for paragraph navigation
 
 ## Visibility
 
@@ -84,17 +88,6 @@
 - q letter -> record macro
 - @ letter -> use macro
 - @@ -> use prev macro
-
-## Productivity
-
-- . -> repeat last thing written
-- ctrl n -> autocomplete with things from document
-- Select U -> Upper case letters
-- Select u -> Lower case selection
-- %s/pattern/subst/gce replace, ignore errors and ask permission for each replacement
-- u undo
-- ctrl r redo
-- 4 j -> go down 4 lines
 
 ## Writing
 
@@ -118,6 +111,7 @@
 
 ## Other interesting
 
+- :f or ctrl g to see name of curr file being edited
 - :Ex -> Directory mode
 - vimgrep pattern files (e.g. *)
 - cn - jump to the next match.
@@ -126,3 +120,26 @@
 - cc number - jump to specific match number, which you get from :clist output.
 - :set hlsearch
 - :noh -> clear highlights
+- - . -> repeat last thing written
+- ctrl n -> autocomplete with things from document
+- Select U -> Upper case letters
+- Select u -> Lower case selection
+- %s/pattern/subst/gce replace, ignore errors and ask permission for each replacement
+- u undo
+- ctrl r redo
+- 4 j -> go down 4 lines
+- ctrl o and ctrl i to go to previous locations and more recent
+- crtl r 0 insert mode is same as p in visual
+- ctrl w delete word ctrl u delete line
+- ctrl v select numbers in line g ctrl a puts numbers in order
+
+## Enter edit file under cursor
+D delete file under cursor
+R rename file under cursor
+% create file in current directory
+
+## Combos
+
+- * + c + write + ESC + g + n => replace multiple letters then  . . . .  to repeat it
+
+- ctrl v select columns -> Shift i -> write -> esc esc to write something in multiple lines
