@@ -46,6 +46,7 @@
 :e .
 50 ctrl-w <
 set wfw
+v for split windows
 
 ## Selection
 
