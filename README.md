@@ -41,6 +41,12 @@
 
 - :bufdo do something in all buffers
 
+#Window Navigation
+
+:e .
+50 ctrl-w <
+set wfw
+
 ## Selection
 
 - shift v -> select whole line
